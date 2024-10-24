@@ -1,0 +1,35 @@
+.outterDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.logoImg {
+    width: 70px;
+    height: 44px;
+}
+
+.menuList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_Li {
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: normal;
+    margin: 30px 15px;
+    letter-spacing: 2px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    padding: 2px 14px 2px 14px;
+    /* padding : top right bot left */
+}
+
+.menu_Li:hover{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
