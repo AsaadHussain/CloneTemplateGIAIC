@@ -6,7 +6,7 @@ import "./globals.css";
 const roboto = Roboto({
   variable: "--roboto",
   subsets: ["latin"],
-  weight: ["100", "900", "400"],
+  weight: ["100", "300", "400", "500", "700", "900"],
 });
 
 const arima = Arima({

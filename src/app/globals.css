@@ -2,3 +2,97 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.firstSec {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0px;
+}
+
+.leftSec {
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 100px;
+    height: 100%;
+}
+
+.title1 {
+    font-family: var(--roboto);
+    font-size: 64px;
+    font-weight: 300;
+    color: #bdbdbd;
+}
+
+.text {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 10px;
+}
+
+.title2 {
+    font-family: var(--roboto);
+    font-size: 64px;
+    font-weight: 900;
+    color: #333333;
+    line-height: 0.3;
+}
+
+._imgBuild {
+    height: 630px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.line{
+    background-color: #333333;
+    width: 370px;
+    height: 1px;
+}
+
+.buttonArrow {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(231, 231, 231);
+    font-size: 20px;
+    margin: 0px 20px 0px 0px;
+    color: rgb(82, 82, 82);
+    padding: 0px;
+}
+
+.date{
+    font-family: var(--roboto);
+    font-size: 24px;
+    font-weight: 400;
+    color: #bdbdbd;
+}
+
+.imgBuild{
+    position: relative;
+}
+
+.buttonImg{
+    background-color: white;
+    padding: 20px 20px;
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #333333;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
