@@ -6,8 +6,10 @@
 .firstSec {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 0px;
+    justify-content: center;
+    gap: 0;
+    padding: 0px;
+    margin-top: 10px;
 }
 
 .leftSec {
@@ -16,7 +18,6 @@
     justify-content: flex-end;
     flex-direction: column;
     gap: 100px;
-    height: 100%;
 }
 
 .title1 {
@@ -38,14 +39,14 @@
 .title2 {
     font-family: var(--roboto);
     font-size: 64px;
-    font-weight: 900;
+    font-weight: 600;
     color: #333333;
     line-height: 0.3;
 }
 
 ._imgBuild {
-    height: 630px;
-    width: 600px;
+    height: 670px;
+    width: 730px;
     object-fit: cover;
 }
 
@@ -54,11 +55,12 @@
     align-items: center;
     justify-content: center;
     gap: 0;
+    outline: none;
 }
 
-.line{
-    background-color: #333333;
-    width: 370px;
+.line {
+    background-color: #f2f2f2;
+    width: 320px;
     height: 1px;
 }
 
@@ -73,26 +75,345 @@
     padding: 0px;
 }
 
-.date{
+.buttonArrow:hover {
+    background-color: #f9f9f9;
+}
+
+.date {
     font-family: var(--roboto);
     font-size: 24px;
     font-weight: 400;
     color: #bdbdbd;
 }
 
-.imgBuild{
+.imgBuild {
     position: relative;
 }
 
-.buttonImg{
+.buttonImg {
     background-color: white;
-    padding: 20px 20px;
+    padding: 20px 35px 20px 30px;
     font-family: var(--roboto);
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
     color: #333333;
     position: absolute;
     bottom: 0px;
     left: 0px;
+}
+
+.buttonImg span {
+    font-size: 18px;
+    padding: 0px 10px 0px 15px;
+}
+
+.secondSec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 10px 10px 10px;
+}
+
+.secSecDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: #fbfbfb;
+    padding: 45px 100px;
+    gap: 30px;
+}
+
+.imageSec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    gap: 30px;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img1 {
+    height: 265px;
+    width: 270px;
+    object-fit: cover;
+}
+
+.img2 {
+    height: 140px;
+    width: 270px;
+    object-fit: cover;
+}
+
+.img3 {
+    height: 345px;
+    width: 270px;
+    object-fit: cover;
+}
+
+.textSec {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titleSec2 {
+    font-size: 64px;
+    font-weight: 300;
+    color: #bdbdbd;
+    font-family: var(--roboto);
+}
+
+.paraSec2 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    font-family: var(--roboto);
+}
+
+.buttonReg {
+    position: static;
+}
+
+.thirdSec {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 80px 80px 0px 80px;
+    padding: 0px;
+    gap: 0px;
+}
+
+.headingSec3 h2 {
+    font-family: var(--roboto);
+    font-size: 64px;
+    font-weight: 300;
+    color: #bdbdbd;
+}
+
+.number {
+    font-family: var(--roboto);
+    font-size: 200px;
+    font-weight: 900;
+    color: #f2f2f2;
+}
+
+.paragraph {
+    font-family: var(--roboto);
+    font-size: 22px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.paraSec3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.para1Sec3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.fourSec {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 80px 70px 80px;
+}
+
+.fourSec h2 {
+    margin: 0px 0px 20px 0px;
+}
+
+.imgSec4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imageSec4Div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 15px 0px;
+    gap: 25px;
+}
+
+.imageDivS4 {
+    margin: 0px;
+    padding: 0px;
+    background-color: #333333;
+    position: relative;
+}
+
+.textIDS4 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+    width: 60%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.titleTIDS4 {
+    color: white;
+    font-size: 64px;
+    font-family: var(--roboto);
+    font-weight: 500;
+    line-height: 0.9;
+}
+
+.textIDS4 p {
+    color: white;
+    font-size: 12px;
+    font-family: var(--roboto);
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.textIDS4 span {
+    font-size: 18px;
+    padding: 0px 10px;
+}
+
+.img1S4 {
+    width: 570px;
+    height: 255px;
+    opacity: 0.3;
+}
+
+.img2S4 {
+    width: 570px;
+    height: 255px;
+}
+
+.img3S4 {
+    width: 275px;
+    height: 250px;
+}
+
+.img4S4 {
+    width: 470px;
+    height: 250px;
+}
+
+.img5S4 {
+    width: 375px;
+    height: 250px;
+}
+
+.buttonSec4 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.buttonSec4 span {
+    font-size: 18px;
+    padding: 0px 0px 0px 10px;
+}
+
+.button3 {
+    color: white;
+    background-color: #333333;
+}
+
+.formDiv {
+    margin: 20px 80px 100px 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-img {
+    display: flex;
+    align-items: stretch; 
+    justify-content: space-between;
+    width: 100%;
+}
+
+.formSec {
+    width: 38%;
+}
+
+.imgSecForm { 
+    width: 62%;
+    height: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formFormS {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    gap: 20px;
+}
+
+textarea,
+input::placeholder {
+    font-family: var(--roboto);
+    font-size: 14px;
+    font-weight: 400;
+    color: #8d8d8d;
+}
+
+.input1 {
+    background-color: #f3f3f3;
+    width: 390px;
+    height: 46px;
+    padding: 10px 20px;
+}
+
+.input2 {
+    background-color: #f3f3f3;
+    width: 390px;
+    height: 146px;
+    padding: 10px 20px;
+    resize: none;
+}
+
+textarea,
+input:focus {
+    outline: none;
+}
+
+.imgForm {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+.formDiv button{
+    margin-top: 40px;
 }
